@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
 body{
     background: hsl(257, 40%, 49%);
     background-image: url(../images/bg-desktop.svg);
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
 .principal{
-   
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.principal .imagem-mockups{
+    display: flex;
+    align-items: center;
+}
+
+.principal .informacao-principal{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
