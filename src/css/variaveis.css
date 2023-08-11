@@ -1,0 +1,6 @@
+:root{
+    --primaria: hsl(257, 40%, 49%);
+    --secundaria: hsl(300, 69%, 71%);
+    --largura-pc: 1440px;
+    --largura-celular: 375px;
+}

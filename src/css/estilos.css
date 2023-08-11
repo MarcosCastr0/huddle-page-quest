@@ -1,25 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
+html {
+    font-size: 62.5%;
+
+}
+
 body{
-    background: hsl(257, 40%, 49%);
-    background-image: url(../images/bg-desktop.svg);
-    background-size: cover;
+    background: var(--primaria) url(../images/bg-desktop.svg) no-repeat;
+    background-size: 150%;
     font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    margin: 3rem 8rem;
 }
 
 .principal{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 50px;
+    margin: 3rem 8rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .principal .imagem-mockups{
     display: flex;
     align-items: center;
+    max-width: 100rem;
+}
+
+.principal .imagem-mockups img{
+    width: 100%;
 }
 
 .principal .informacao-principal{
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.principal .informacao-principal .titulo-principal{
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.principal .informacao-principal .texto-principal{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 3rem;
+}
+
+.principal .informacao-principal .btn-cta{
+    display: inline-block;
+    padding: 2rem 7rem;
+    border-radius: 2.5rem;
+    background-color: white;
+    color: var(--primaria);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0,.5);
+    transition: 0.3s;
+    font-size: 1.6rem;
+}
+
+.principal .informacao-principal .btn-cta:hover{
+    color: white;
+    background-color: var(--secundaria);
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8rem;
+}
+
+.rodape .social{
+    display: flex;
+    gap: 2rem;
+}
+
+.rodape .social a{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    padding: 1rem;
+    border: 0.1rem solid white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.rodape .social a:hover{
+    border: 0.1rem solid var(--secundaria);
+    color: var(--secundaria);
 }
