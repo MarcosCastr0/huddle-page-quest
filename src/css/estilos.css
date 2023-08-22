@@ -27,11 +27,10 @@ body{
 .principal .imagem-mockups{
     display: flex;
     align-items: center;
-    max-width: 100rem;
 }
 
 .principal .imagem-mockups img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .principal .informacao-principal{
@@ -60,7 +59,7 @@ body{
     cursor: pointer;
     display: inline-block;
     padding: 2rem 7rem;
-    border-radius: 2.5rem;
+    border-radius: 4rem;
     background-color: white;
     color: var(--primaria);
     box-shadow: 1px 1px 7px rgba(0, 0, 0,.5);
