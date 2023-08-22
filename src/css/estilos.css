@@ -57,9 +57,8 @@ body{
 
 .principal .informacao-principal .btn-cta{
     cursor: pointer;
-    display: inline-block;
-    padding: 2rem 7rem;
-    border-radius: 4rem;
+    padding: 1.8rem 7rem;
+    border-radius: 50rem;
     background-color: white;
     color: var(--primaria);
     box-shadow: 1px 1px 7px rgba(0, 0, 0,.5);
@@ -91,7 +90,7 @@ body{
     border: 0.1rem solid white;
     height: 5rem;
     width: 5rem;
-    border-radius: 5rem;
+    border-radius: 4.5rem;
     font-size: 2rem;
     color: white;
     transition: 0.3s;

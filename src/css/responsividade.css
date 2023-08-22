@@ -1,3 +1,56 @@
+@media(min-width:1900px){
+    .cabecalho img{
+        width: 30rem;
+    }
+
+    .principal{
+        height: 75vh;
+    }
+
+    .principal .imagem-mockups img{
+        width: 125rem;
+    }
+
+    .principal .informacao-principal .titulo-principal{
+        font-size: 5rem;
+    }
+
+    .principal .informacao-principal .texto-principal{
+        font-size: 2rem;
+    }
+
+    .principal .informacao-principal .btn-cta{
+        padding: 3rem 9rem;
+        font-size: 2rem;
+    }
+
+    .rodape .social a{
+        height: 7rem;
+        width: 7rem;
+        font-size: 2.4rem;
+    }
+}
+
+@media(min-width:1025px){
+    .cabecalho img{
+        width: 27rem;
+    }
+
+    .principal{
+        height: 60vh;
+    }
+
+    .principal .imagem-mockups img{
+        width: 100rem;
+    }
+
+
+    .principal .informacao-principal .btn-cta{
+        padding: 2rem 9rem;
+        font-size: 1.9rem;
+    }
+}
+
 @media(max-width: 688px){
 
     body{
@@ -27,13 +80,14 @@
     }
 
     .principal .informacao-principal .btn-cta{
-        margin-top: 5rem;
+        margin-top: 7rem;
         padding: 2rem 10rem;
     }
 
     .rodape{
         justify-content: center;
         margin-right: 0;
+        margin-top: 3rem;
     }
 }
 
@@ -65,8 +119,11 @@
     }
 
     .principal .informacao-principal .btn-cta{
-        margin-top: 0rem;
-        padding: 1rem 8rem;
+        margin-top: 3rem;
+    }
+
+    .rodape{
+        margin-top: 10rem;
     }
 
     .rodape .social a{
@@ -76,55 +133,13 @@
     }
 }
 
-@media(min-width:1040px){
-    .cabecalho img{
-        width: 30rem;
-    }
-
-    .principal{
-        height: 60vh;
-    }
-
-    .principal .imagem-mockups img{
-        width: 100rem;
-    }
-
-
+@media(max-width: 400px){
     .principal .informacao-principal .btn-cta{
-        padding: 3rem 9rem;
-        font-size: 2rem;
-    }
-}
-
-@media(min-width:1900px){
-    .cabecalho img{
-        width: 30rem;
+        margin-top: 0rem;
+        padding: 1.5rem 9rem;
     }
 
-    .principal{
-        height: 75vh;
-    }
-
-    .principal .imagem-mockups img{
-        width: 125rem;
-    }
-
-    .principal .informacao-principal .titulo-principal{
-        font-size: 5rem;
-    }
-
-    .principal .informacao-principal .texto-principal{
-        font-size: 2rem;
-    }
-
-    .principal .informacao-principal .btn-cta{
-        padding: 3rem 9rem;
-        font-size: 2rem;
-    }
-
-    .rodape .social a{
-        height: 7rem;
-        width: 7rem;
-        font-size: 2.4rem;
+    .rodape{
+        margin-top: 0rem;
     }
 }
