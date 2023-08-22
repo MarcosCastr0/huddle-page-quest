@@ -76,9 +76,29 @@
     }
 }
 
-@media(min-width:1500px){
+@media(min-width:1040px){
     .cabecalho img{
-        width: 35rem;
+        width: 30rem;
+    }
+
+    .principal{
+        height: 60vh;
+    }
+
+    .principal .imagem-mockups img{
+        width: 100rem;
+    }
+
+
+    .principal .informacao-principal .btn-cta{
+        padding: 3rem 9rem;
+        font-size: 2rem;
+    }
+}
+
+@media(min-width:1900px){
+    .cabecalho img{
+        width: 30rem;
     }
 
     .principal{
